@@ -1,0 +1,109 @@
+/*отступы для всех элементов страницы*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*расположение кнопки вверх*/
+.topbutton {
+position:fixed;
+bottom:50px;
+right:50px;
+}
+
+/*размер кнопки вверх*/
+.scroll-to-top {
+width:50px;
+height: 50px;
+}
+
+/*размер шапки*/
+.nav {
+height: 110px;
+width: 100%;
+}
+
+/*рсположение лого*/
+.logo {
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 100px;
+}
+
+/*стили для ссылок в меню*/
+.text1 {
+margin-top: 40px;
+text-align: center;
+color: #004075;
+text-decoration: none;
+}
+
+/*стили для заголовков*/
+.nametext1 {
+text-align: center;
+font-size: 50pt;
+padding: 20px;
+color: #004075;
+}
+
+/*размер блока "о продукте"*/
+.row .r1 {
+width: auto;
+height: 600px;
+}
+
+/*стили для обычного текста в блоке о продукте*/
+.text2 {
+margin-right: 100px;
+margin-left: 70px;
+margin-top: 90px;
+color: #000000;
+font-size: 12pt;
+}
+
+/*рсположение лого*/
+.row .r2 {
+width: auto;
+height: 900px;
+}
+
+.img2 {
+width: auto;
+margin-top: 50px;
+
+}
+
+.text3 {
+margin-right: 100px;
+margin-left: 70px;
+margin-top: 20px;
+color: #000000;
+font-size: 12pt;
+text-align: left;
+}
+
+.img3 {
+width: auto;
+height: 60%;
+margin-top: 50px;
+
+}
+
+/*размер футера*/
+footer {
+height: 110px;
+width: 100%;
+background-color: #004075;
+color: white;
+text-align: center;	
+margin-top: 30px;
+}
+
+.text4 {
+	padding-top: 40px;
+margin-top: 60px;
+color: #ffffff;
+font-size: 12pt;
+text-align: center;
+}
